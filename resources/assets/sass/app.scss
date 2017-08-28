@@ -1,0 +1,64 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Custom
+header .bg-primary {
+  background-color: #1E82A4;
+  padding: 0 30px;
+  height: 60px;
+  line-height: 60px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+h2 {
+  color: #548490;
+}
+.resultsRow {
+  margin: 50px 0 100px;
+}
+.count {
+  text-align: center;
+  font-size: 100px;
+}
+.innerContainer {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#anim1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.object {
+  position: absolute;
+  transition: all 1s ease-in-out;
+  width: 50px;
+}
+.statsTable {
+  width: 100%;
+  border-collapse: separate;
+
+  th, td {
+    padding: 10px;
+  }
+
+  thead {
+    background-color: #1E82A4;
+    color: #fff;
+  }
+  tbody {
+    tr:nth-child(even) {
+      background-color: #ddd;
+    }
+  }
+}
